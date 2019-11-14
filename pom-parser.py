@@ -14,5 +14,5 @@ deps = root.findall(".//xmlns:dependency", namespaces=namespaces)
 for d in deps:
     artifactId = d.find("xmlns:artifactId", namespaces=namespaces)
     version    = d.find("xmlns:version", namespaces=namespaces)
-    print artifactId.text + '\t' + version.text
+    print(artifactId.text + '\t' + version.text)
 
