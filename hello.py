@@ -1,2 +1,2 @@
 # First commit from Codespace 
-print('Hello, World!')
+print('Hello, World from Codespace!')
